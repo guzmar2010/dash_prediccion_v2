@@ -12,7 +12,7 @@ import re
 # file_path_pronostico = "C:/UNAL_MINMINAS/Blackboard/Lectura_archivos/Valores_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
 # df_pronostico = pd.read_csv(file_path_pronostico, sep="\t")
 
-url_pronostico = "https://raw.githubusercontent.com/guzmar2010/dash_prediccion_v2/main/Valores_Pronosticados_Precipitacion_2025-2_a_2025-7_Colombia.csv"
+url_pronostico = "https://raw.githubusercontent.com/guzmar2010/dash_prediccion_v2/main/Valores_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
 df_pronostico = pd.read_csv(url_pronostico, sep="\t")
 
 # file_path_cambio_precipitacion = "C:/UNAL_MINMINAS/Blackboard/Lectura_archivos/PorcentajesIndicesProbabilidad_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
