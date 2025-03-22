@@ -12,12 +12,12 @@ import re
 # file_path_pronostico = "C:/UNAL_MINMINAS/Blackboard/Lectura_archivos/Valores_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
 # df_pronostico = pd.read_csv(file_path_pronostico, sep="\t")
 
-url_pronostico = "https://raw.githubusercontent.com/guzmar2010/dash_prediccion/main/Valores_Pronosticados_Precipitacion_2025-2_a_2025-7_Colombia.csv"
+url_pronostico = "https://raw.githubusercontent.com/guzmar2010/dash_prediccion_v2/main/Valores_Pronosticados_Precipitacion_2025-2_a_2025-7_Colombia.csv"
 df_pronostico = pd.read_csv(url_pronostico, sep="\t")
 
 # file_path_cambio_precipitacion = "C:/UNAL_MINMINAS/Blackboard/Lectura_archivos/PorcentajesIndicesProbabilidad_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
 # df_cambio_precipitacion = pd.read_csv(file_path_cambio_precipitacion, sep="\t")
-url_cambio_precipitacion = "https://raw.githubusercontent.com/guzmar2010/dash_prediccion/main/PorcentajesIndicesProbabilidad_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
+url_cambio_precipitacion = "https://raw.githubusercontent.com/guzmar2010/dash_prediccion_v2/main/PorcentajesIndicesProbabilidad_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
 df_cambio_precipitacion = pd.read_csv(url_cambio_precipitacion, sep="\t")
 
 # 📌 Archivos de Probabilidad
@@ -25,10 +25,10 @@ df_cambio_precipitacion = pd.read_csv(url_cambio_precipitacion, sep="\t")
 # file_path_normal = "C:/UNAL_MINMINAS/Blackboard/Lectura_archivos/PorcentajesNormal_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
 # file_path_inferior = "C:/UNAL_MINMINAS/Blackboard/Lectura_archivos/PorcentajesInferior_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
 # file_path_indice = "C:/UNAL_MINMINAS/Blackboard/Lectura_archivos/IndicesProbabilidad_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
-url_superior = "https://raw.githubusercontent.com/guzmar2010/dash_prediccion/main/PorcentajesSuperior_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
-url_normal = "https://raw.githubusercontent.com/guzmar2010/dash_prediccion/main/PorcentajesNormal_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
-url_inferior = "https://raw.githubusercontent.com/guzmar2010/dash_prediccion/main/PorcentajesInferior_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
-url_indice = "https://raw.githubusercontent.com/guzmar2010/dash_prediccion/main/IndicesProbabilidad_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
+url_superior = "https://raw.githubusercontent.com/guzmar2010/dash_prediccion_v2/main/PorcentajesSuperior_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
+url_normal = "https://raw.githubusercontent.com/guzmar2010/dash_prediccion_v2/main/PorcentajesNormal_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
+url_inferior = "https://raw.githubusercontent.com/guzmar2010/dash_prediccion_v2/main/PorcentajesInferior_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
+url_indice = "https://raw.githubusercontent.com/guzmar2010/dash_prediccion_v2/main/IndicesProbabilidad_Pronosticados_Precipitacion_Periodo_2025-2_a_2025-7_Colombia.csv"
 
 # df_superior = pd.read_csv(file_path_superior, sep="\t")
 # df_normal = pd.read_csv(file_path_normal, sep="\t")
